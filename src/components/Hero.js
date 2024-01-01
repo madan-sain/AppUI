@@ -1,26 +1,31 @@
-import React from 'react'
+import React from "react";
+import Buttion from "./Buttion";
+import heroimage  from "../image/herophone.png"
 
 const Hero = () => {
   return (
-    <div className=' bg-gray-200 text-white grid grid-cols-1 md:grid-cols-2 w-full h-screen' >
-
-     <div className='text-end flex items-center w-full'>
-
-        <div  className='w-10/12'>
-
-            <h1 className='text-7xl font-semibold text-black'>Best App for your Mordern Lifestyle</h1>
-            <h1 >
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-            </h1>
+    <div className=" grid grid-cols-1 md:grid-cols-2 w-full">
+      <div className=" flex md:items-center w-full ">
+        <div className=" m-5 ">
+          <h1 className=" text-4xl md:text-7xl font-semibold text-black">
+            Best app for your modern lifestyle
+          </h1>
+          <h1 className="text-gray-700 font-semibold mt-2 mb-5 text-2xl">
+            Increase productivity with a simple to-do app. app for managing your
+            personal budgets.
+          </h1>
+          <span className=" flex gap-20  ms-5 items-center">
+            <Buttion type={'submit'} text={'Try for Free'} />
+            <p className="text-blue-500">Watch demo video</p>
+          </span>
         </div>
+      </div>
 
-     </div>
-
-     <div className='w-50'>
-
-     </div>
+      <div className="hidden md:block">
+        <img src={heroimage} alt="homeimage " className="w-full h-full"/>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;

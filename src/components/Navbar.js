@@ -1,5 +1,4 @@
 import React from "react";
-import { CiShoppingBasket } from "react-icons/ci";
 import { FaBars } from "react-icons/fa6";
 import { NAV_LINKS } from "../constant";
 import Buttion from "./Buttion";
