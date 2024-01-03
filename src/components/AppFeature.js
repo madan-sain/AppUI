@@ -5,10 +5,10 @@ import { MdMapsHomeWork, MdMovieEdit } from "react-icons/md";
 
 const AppFeature = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 m-5 space-x-4">
+    <div className="grid grid-cols-1  md:grid-cols-2 m-5 space-x-4">
       <div>
         <span>
-          <img src={phonefeatherig} alt="phone" className="w-fit" />
+          <img src={phonefeatherig} alt="phone" className=" w-[80%] " />
         </span>
       </div>
       <div>
@@ -71,12 +71,6 @@ const AppFeature = () => {
                 according to Deloitte's 2022 Global TMT predictions1, the
                 smartphone market is projected to reach 1 billion users by 2026.
                 Read more at:
-              </h1>
-              <h1>
-                These statistics highlight how rapidly the mobile app
-                development industry is expanding in India, presenting a huge
-                opportunity for businesses to reach their target audience. Read
-                more at:
               </h1>
             </span>
           </div>

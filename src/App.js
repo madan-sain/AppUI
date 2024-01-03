@@ -6,6 +6,8 @@ import AppFeature from './components/AppFeature';
 import Jackpot from './components/Jackpot';
 import Jackpottwo from './components/Jackpottwo';
 import Herotow from './components/Herotow';
+import Feachers from './components/Feachers';
+import Featherstow from './components/Featherstow';
 
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
    <Jackpot />
    <Jackpottwo />
    <Herotow />
+   <Feachers />
+   <Featherstow />
    </>
   );
 }

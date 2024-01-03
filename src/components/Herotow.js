@@ -4,11 +4,11 @@ import Buttion from "./Buttion";
 
 const Herotow = () => {
   return (
-    <div>
+    <div className="">
       <div className="m-5 grid grid-cols-1 md:grid-cols-2 mt-2 md:mt-5">
-        <div>
+        <div className="w-full">
           <span>
-            <img src={appdevimg} alt="appdev" />{" "}
+            <img src={appdevimg} alt="appdev" />
           </span>
         </div>
         <div className="flex items-center w-96">
