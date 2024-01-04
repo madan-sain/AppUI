@@ -8,6 +8,8 @@ import Jackpottwo from './components/Jackpottwo';
 import Herotow from './components/Herotow';
 import Feachers from './components/Feachers';
 import Featherstow from './components/Featherstow';
+import Footer from './components/Footer';
+import Pricelist from './components/Pricelist';
 
 
 function App() {
@@ -22,6 +24,10 @@ function App() {
    <Herotow />
    <Feachers />
    <Featherstow />
+<Pricelist />
+
+
+   <Footer />
    </>
   );
 }

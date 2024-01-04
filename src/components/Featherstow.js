@@ -3,15 +3,16 @@ import imgs from "../image/mobileappdevice.svg";
 import { FaMedapps } from "react-icons/fa";
 import { MdSupportAgent, MdOutlineCloud } from "react-icons/md";
 import { SiGraphql } from "react-icons/si";
+import Buttion from "./Buttion";
 
 const Featherstow = () => {
   return (
     <div className="flex justify-center md:mt-20 mt-5 md:md-10">
       <div className="grid md:max-w-6xl  grid-cols-1 md:grid-cols-2">
         <div className="md:m-0 m-5">
-          <div  className="w-[70%]">
-            <h1 className="text-2xl md:text-4xl font-bold ">Ultimate features that we built</h1>
-            <p className="font-semibold mt-2 mb-5">
+          <div  className="md:w-[70%]">
+            <h1 className="text-2xl md:text-4xl font-bold text-center md:text-start ">Ultimate features that we built</h1>
+            <p className="font-semibold mt-2 mb-5  text-center md:text-start ">
               The rise of mobile devices transforms the way we consume
               information entirely.
             </p>
@@ -76,8 +77,9 @@ const Featherstow = () => {
         Get your blood tests delivered at home, collect a sample, and receive your test results.
       </div>
     </div>
-
-
+<span className="mt-2 md:mt-5">
+<Buttion text={'See All'} type={'submmit'}  />
+</span>
     
 </div>
 
